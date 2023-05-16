@@ -71,14 +71,11 @@ a{
     padding: 5%;
 }
 
-.conteudo-site{
-    margin: 2% 20%;
-}
 
 h1{
     display: flex;
     justify-content: center;
-    font-size: 70px;
+    font-size: 65px;
 }
 
 .base-imagem{
@@ -94,22 +91,24 @@ h1{
     border: 4px solid #AC7088;
 }
 
-.base-texto{
-    margin-top: 3%;
-    margin-left: 3%;
+.base-texto{    
     display: flex;
     flex-direction: column;
     justify-content: center;
-    padding: 3% 5% ;
+    align-items: center;
     background-color: #AC7088;
     border-radius: 25px;
-    width: 85%;
+    margin: 3% 0;
+    margin-left: 20%;
+    width: 60%;
     height: auto;
 }
 
 p{
     color: rgb(236, 236, 236);
     justify-content: center;
+    align-items: center;
+    margin: 2% 3%;
 }
 
 .video-base{
