@@ -64,11 +64,11 @@
         justify-content: center;
     }
     
-    .video{
+    #video{
         display: none;
     }
 
-    .video-phone{
+    #video-phone{
         display: flex;
         justify-content: center;
         align-items: center;
