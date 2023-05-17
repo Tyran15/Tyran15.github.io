@@ -62,7 +62,7 @@
         justify-content: center;
     }
     
-    #video{
+    .video{
         display: flex;
         justify-content: center;
         align-items: center;
@@ -70,7 +70,7 @@
         border-radius: 20px;
     }
 
-    #video-phone{
+    .video-phone{
         display: none;
     }
 }
