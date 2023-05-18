@@ -4,6 +4,38 @@
         font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     }
     
+     ul{
+        display: flex;
+        justify-content:space-between;
+        list-style: none;
+        margin-left: -2%;
+        margin: 3% 0;
+    }
+
+    .base-texto li{
+        color: rgb(236, 236, 236);
+        justify-content: center;
+        background-color: #AC7088;
+        font-size: 18px;
+        padding: 3%;
+        border-radius: 0 40px;
+        margin: 3% 0;
+    }
+
+    a{
+        font-size: 20px;
+        border: 1px solid #AC7088;
+        border-radius: 5px 10px;
+        padding: 5px 10px;
+        color: white;
+        text-decoration: none;
+        transition: background-color 1s ease;
+    }
+
+    a:hover{
+        background: #AC7088;
+    }
+
     .base-site{
         display: flex;
         flex-direction: column;
@@ -19,11 +51,22 @@
         padding: 5%;
     }
     
+    .retrato-goethe{
+        border-radius: 50%;
+        border: 4px solid #AC7088;
+        margin-left: -3%;
+    }
+
     
     h1{
         display: flex;
         justify-content: center;
         font-size: 65px;
+    }
+
+    h2{
+        display: flex;
+        justify-content: center;
     }
     
     .base-imagem{
@@ -37,6 +80,7 @@
         border-radius: 50px;
         height: 550px;
         border: 4px solid #AC7088;
+        margin-bottom: 3%;
     }
     
     .base-texto{    
@@ -44,17 +88,24 @@
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        background-color: #AC7088;
         border-radius: 25px;
         margin: 3% 19%;
         width: 60%;
         height: auto;
         padding: 0 1%;
     }
-    
+
     p{
         color: rgb(236, 236, 236);
         justify-content: center;
+        background-color: #AC7088;
+        font-size: 18px;
+        padding: 3%;
+        border-radius: 0 40px;
+    }
+
+    b{
+        color: rgb(233, 233, 233);
     }
     
     .video-base{
@@ -72,5 +123,11 @@
 
     #video-phone{
         display: none;
+    }
+
+    .linha{
+        background: black;
+        height: 1px;
+        margin: 0 18%;
     }
 }
