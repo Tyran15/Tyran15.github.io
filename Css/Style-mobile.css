@@ -163,6 +163,8 @@
 
     #bg-texto{
         color: rgb(236, 236, 236);
+        display: flex;
+        flex-direction: column;
         justify-content: center;
         background-color: #01F558;
         font-size: 18px;
