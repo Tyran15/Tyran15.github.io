@@ -15,10 +15,9 @@
     .base-texto li{
         color: rgb(236, 236, 236);
         justify-content: center;
-        background-color: #AC7088;
+        background-color: #FA602D;
         font-size: 18px;
         padding: 3%;
-        border-radius: 0 40px;
         margin: 3% 0;
     }
 
@@ -36,10 +35,30 @@
         background: #AC7088;
     }
 
-    .base-site{
+    .base-site-1{
         display: flex;
         flex-direction: column;
-        background-color: rgb(222, 182, 171);
+        background-color:  rgba(1,   21, 245, 0.7) ;
+        border-radius: 25px;
+        padding: 3%;
+        padding-bottom: 5%;
+        margin: 5%;
+    }   
+
+    .base-site-2{
+        display: flex;
+        flex-direction: column;
+        background-color:  rgba(245, 139, 0, 0.8) ;
+        border-radius: 25px;
+        padding: 3%;
+        padding-bottom: 5%;
+        margin: 5%;
+    }
+
+    .base-site-3{
+        display: flex;
+        flex-direction: column;
+        background-color:  rgba(0, 245, 12, 0.8) ;
         border-radius: 25px;
         padding: 3%;
         padding-bottom: 5%;
@@ -52,21 +71,33 @@
     }
     
     .retrato-goethe{
+        display: flex;
+        justify-content: center;
         border-radius: 50%;
-        border: 4px solid #AC7088;
+        border: 4px solid #0D9EFA;
+        padding: 2%;
         margin-left: -3%;
     }
 
-    
+    #celebro{
+        display: flex;
+        justify-content: center;
+        border-radius: 50%;
+        padding: 2%;
+        margin-left: -3%;
+    }
+
     h1{
         display: flex;
         justify-content: center;
         font-size: 65px;
+        color: white;
     }
 
     h2{
         display: flex;
         justify-content: center;
+        color: white;
     }
     
     .base-imagem{
@@ -76,11 +107,29 @@
     
     #cores-goethe{
         display: flex;
-        background-color: white;
         border-radius: 50px;
         height: 550px;
-        border: 4px solid #AC7088;
+        border: 4px solid #0D9EFA;
         margin-bottom: 3%;
+        padding: 2%;
+    }
+
+    #cores-marcas{
+        display: flex;
+        border-radius: 50px;
+        height: 500px;
+        border: 4px solid #01F558;
+        margin: 3% 0;
+        padding: 2%;
+    }
+
+    #cores{
+        display: flex;
+        justify-content: center;
+        border-radius: 50%;
+        border: 4px solid #01F558;
+        padding: 2%;
+        margin-left: -3%;
     }
     
     .base-texto{    
@@ -95,14 +144,34 @@
         padding: 0 1%;
     }
 
-    p{
+    .base-site-1 p{
         color: rgb(236, 236, 236);
         justify-content: center;
-        background-color: #AC7088;
+        background-color: #0D9EFA;
         font-size: 18px;
         padding: 3%;
         border-radius: 0 40px;
     }
+    
+    .base-site-2 p{
+        color: rgb(236, 236, 236);
+        justify-content: center;
+        background-color: #FA4E0D;
+        font-size: 18px;
+        padding: 5%;
+        border-radius: 0 40px;
+    }
+
+    #bg-texto{
+        color: rgb(236, 236, 236);
+        justify-content: center;
+        background-color: #01F558;
+        font-size: 18px;
+        padding: 5%;
+        border-radius: 0 40px;
+        margin-top: 5%;
+    }
+
 
     b{
         color: rgb(233, 233, 233);
@@ -117,7 +186,8 @@
         display: flex;
         justify-content: center;
         align-items: center;
-        border: 4px solid #AC7088;
+        border: 4px solid #FA4E0D;
+        padding: 2%;
         border-radius: 20px;
     }
 
@@ -126,8 +196,20 @@
     }
 
     .linha{
-        background: black;
+        background: #0D9EFA;
         height: 1px;
         margin: 0 18%;
     }
+
+    #background-video {
+        position: fixed;
+        right: 0;
+        bottom: 0;
+        min-width: 100%;
+        min-height: 100%;
+        width: auto;
+        height: auto;
+        z-index: -1;
+      }
+      
 }
