@@ -4,42 +4,103 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" type="text/css" href="../Css/style.css" media="screen" />
-    <link rel="icon" type="image/x-icon" href="../Imagens/goethe cores.png">
-    <link rel="stylesheet" type="text/css" href="../Css/Style-mobile.css" media="screen and (max-width: 480px)">
+    <link rel="stylesheet" type="text/css" href="../ex007 (1)/Css/style.css" media="screen" />
+    <link rel="icon" type="image/x-icon" href="../ex007 (1)/Imagens/goethe cores.png">
+    <link rel="stylesheet" type="text/css" href="../ex007 (1)/Css/Style-mobile.css" media="screen and (max-width: 480px)">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <title>Harmonia das cores</title>
 </head>
 <body>
-    <div class="base-site">
+    <video id="background-video" autoplay loop muted>
+        <source src="../ex007 (1)/Videos/colorful-background.mp4" type="video/mp4">
+        Seu navegador não suporta vídeos em HTML5.
+    </video>
+    
+      
+    <div class="base-site-1">
         <div class="borda-texto">
             <div class="conteudo-site">
-                <h1>Teoria de Goethe</h1>
+                <h1 data-aos="zoom-in-up">Teoria de Goethe</h1>
                 <div class="base-texto">
-                    <img class="retrato-goethe" src="../Imagens/goethe-pintura2.jpg" alt="Retrato-Goethe">
-                    <h2>Quem foi Goethe?</h2>
-                    <p>O escritor e político alemão Johann Wolfgang von Goethe (1749 - 1832) era um indivíduo multi-talentoso. Uma celebridade em seu país natal na época em que tinha 20 anos, ele foi uma figura importante no florescimento da literatura alemã do século 18, famosa por obras de ficção como Fausto . Mas Goethe explorou diversos caminhos criativos. Além de romances e peças de teatro, ele escreveu poemas épicos, escreveu tratados científicos sobre diversos assuntos e se interessou pelo desenho e pela pintura. Foram suas experiências com a pintura que o levaram às idéias sobre a cor, publicadas na Theory of Colors , publicada em 1810.</p>
-                    <p>Nessa época, as pessoas já estavam familiarizadas com as teorias das cores de Sir Isaac Newton , o cientista e matemático inglês. Newton publicou Opticks , os resultados de seus experimentos sobre luz e cor, em 1704. Nela, ele afirmava que a cor vinha da luz e era resultado da física. A maioria das pessoas aceitou essa ideia - exceto Goethe.</p>
+                    <img class="retrato-goethe" data-aos="zoom-in-up" src="../ex007 (1)/Imagens/goethe-pintura2.jpg" alt="Retrato-Goethe">
+                    <h2 data-aos="zoom-in">Quem foi Goethe?</h2>
+                    <p data-aos="zoom-in">O escritor e político alemão Johann Wolfgang von Goethe (1749 - 1832) era um indivíduo multi-talentoso. Uma celebridade em seu país natal na época em que tinha 20 anos, ele foi uma figura importante no florescimento da literatura alemã do século 18, famosa por obras de ficção como Fausto . Mas Goethe explorou diversos caminhos criativos. Além de romances e peças de teatro, ele escreveu poemas épicos, escreveu tratados científicos sobre diversos assuntos e se interessou pelo desenho e pela pintura. Foram suas experiências com a pintura que o levaram às idéias sobre a cor, publicadas na Theory of Colors , publicada em 1810.</p>
+                    <p data-aos="zoom-in">Nessa época, as pessoas já estavam familiarizadas com as teorias das cores de Sir Isaac Newton , o cientista e matemático inglês. Newton publicou Opticks , os resultados de seus experimentos sobre luz e cor, em 1704. Nela, ele afirmava que a cor vinha da luz e era resultado da física. A maioria das pessoas aceitou essa ideia - exceto Goethe.</p>
                 </div>
                 <div class="linha"></div>
                 <div class="base-texto">
-                    <h2>Teoria da Cor de Goethe</h2>
-                    <img id="cores-goethe" src="../Imagens/Diagrama poderes da alma.webp" alt="diagrama-de-goethe">
-                    <p>Goethe discordou de Newton. Ele refutou a ideia de que a cor era determinada apenas pela luz e pelo espectro de cores, argumentando que a cor era moldada pela percepção, bem como por elementos de luz e escuridão. Nessas discussões, Goethe se tornou uma das primeiras pessoas a explorar sistematicamente a cor e a teoria da cor , o estudo de como as cores são percebidas e como elas interagem com outras cores. Ao contrário de Newton, Goethe argumentou que as cores precisam de escuridão, e algumas cores foram feitas com elementos de escuridão. Eis como Goethe o descreveu:<b> “Luz e escuridão, claridade e obscuridade, ou se uma expressão mais geral for preferida, luz e sua ausência, necessária à produção da cor. . . a própria cor é um grau de escuridão"</b>.</p>
+                    <h2 data-aos="fade-up">Teoria da Cor de Goethe</h2>
+                    <img data-aos="fade-up" id="cores-goethe" src="../ex007 (1)/Imagens/Diagrama poderes da alma.webp" alt="diagrama-de-goethe">
+                    <p data-aos="zoom-out">Goethe discordou de Newton. Ele refutou a ideia de que a cor era determinada apenas pela luz e pelo espectro de cores, argumentando que a cor era moldada pela percepção, bem como por elementos de luz e escuridão. Nessas discussões, Goethe se tornou uma das primeiras pessoas a explorar sistematicamente a cor e a teoria da cor , o estudo de como as cores são percebidas e como elas interagem com outras cores. Ao contrário de Newton, Goethe argumentou que as cores precisam de escuridão, e algumas cores foram feitas com elementos de escuridão. Eis como Goethe o descreveu:<b> “Luz e escuridão, claridade e obscuridade, ou se uma expressão mais geral for preferida, luz e sua ausência, necessária à produção da cor. . . a própria cor é um grau de escuridão"</b>.</p>
 
-                    <p>Cientificamente, Newton estava certo. Mas as teorias de Goethe eram mais arte e filosofia do que ciência pura. E, se você pensar sobre isso, há diferenças entre como a cor é criada por meio do espectro visível (onde o branco é a combinação de todas as cores) e com pigmentos (onde quanto mais cores você mistura, mais escura fica a cor). De certa forma, foram os pigmentos, ou as cores da tinta, que levaram aos experimentos de cores de Goethe, então não é surpresa que suas ideias fossem diferentes das de Newton.</p>
+                    <p data-aos="zoom-out">Cientificamente, Newton estava certo. Mas as teorias de Goethe eram mais arte e filosofia do que ciência pura. E, se você pensar sobre isso, há diferenças entre como a cor é criada por meio do espectro visível (onde o branco é a combinação de todas as cores) e com pigmentos (onde quanto mais cores você mistura, mais escura fica a cor). De certa forma, foram os pigmentos, ou as cores da tinta, que levaram aos experimentos de cores de Goethe, então não é surpresa que suas ideias fossem diferentes das de Newton.</p>
                 </div>
                 
             </div>
         </div>
-        <div class="nav-bar">
-            <div class="base-button">
-                <ul>
-                    <li><a href="../Html/Pratica.html">Experimento</a></li>
-                    <li><a href="../Html/Sentimentos-Cores.html">Emoções</a></li>
-                </ul>
+    </div>
+    
+
+    <div class="base-site-2">
+        <h1 data-aos="fade-up">Experimento</h1>
+        <h2 data-aos="fade-up">Video</h2>
+        <div class="borda-texto">
+            <div class="conteudo-site">
+    <div class="video-base">
+        <iframe data-aos="fade-up" id="video" width="700" height="400" src="https://www.youtube.com/embed/CNVfz3tmo5Y?t=150" title="Lux | Sombras coloridas de Goethe (09/04/19)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        <iframe data-aos="fade-up" id="video-phone" width="285" height="160" src="https://www.youtube.com/embed/CNVfz3tmo5Y?t=150" title="Lux | Sombras coloridas de Goethe (09/04/19)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    </div>
+<div class="base-texto">
+    <h2>Descrição</h2>
+    <p data-aos="zoom-in">A teoria do Goethe, também conhecida como teoria das cores de Goethe, é uma abordagem filosófica e científica sobre a natureza das cores desenvolvida pelo escritor e cientista alemão Johann Wolfgang von Goethe. Esta teoria difere da teoria das cores de Isaac Newton, que era predominante na época, e oferece uma perspectiva alternativa sobre como as cores são percebidas.</p>
+    <p data-aos="zoom-in">Aqui está uma descrição básica dos princípios fundamentais da teoria do Goethe:</p> 
+    
+        <ol>
+                <li data-aos="fade-up-right">Observação fenomenológica: Goethe acreditava que a experiência subjetiva e a observação direta eram essenciais para compreender as cores. Ele enfatizava a importância de estudar as cores em seu contexto natural, considerando a interação entre a luz, as superfícies coloridas e a percepção humana.</li> 
+                
+                <li data-aos="fade-up-right">Contraste e polaridade: Goethe argumentava que as cores eram influenciadas pelo contraste e pela polaridade. Ele identificou duas polaridades principais: o contraste claro-escuro e o contraste quente-frio. Segundo Goethe, esses contrastes influenciam a forma como percebemos as cores e podem afetar as emoções e as sensações associadas a elas.</li> 
+                
+                <li data-aos="fade-up-right">Lei da mistura complementar: Diferentemente da teoria de Newton, que considerava as cores primárias como vermelho, azul e amarelo, Goethe propôs que as cores primárias fossem o vermelho-amarelo, o verde-azul e o amarelo-azul. Ele argumentou que essas cores primárias se misturavam de maneira complementar, ou seja, cada par de cores primárias, quando combinadas, produziria uma cor secundária que estava em oposição à terceira cor primária.</li> 
+                
+                <li data-aos="fade-up-right">Efeito de simultaneidade: Goethe também observou o fenômeno da simultaneidade, onde as cores são influenciadas pelas cores vizinhas. Ele percebeu que uma cor pode parecer diferente dependendo das cores que a cercam. Esse efeito destaca a importância do contexto na percepção das cores.</li>
+                
+                <li data-aos="fade-up-right">Significado simbólico das cores: Além de suas investigações científicas, Goethe também atribuiu significados simbólicos e emocionais às cores. Ele associou, por exemplo, o amarelo à luz e à alegria, o vermelho à paixão e o azul à tranquilidade.</li>
+                
+        </ol>
+                <p data-aos="zoom-in">É importante notar que a teoria do Goethe não é amplamente aceita no campo científico moderno da física óptica, que é baseada principalmente na teoria das cores de Newton e nas propriedades físicas da luz. No entanto, a teoria de Goethe ainda é valorizada como uma perspectiva alternativa e poética sobre as cores e continua a influenciar áreas como a arte, a psicologia da cor e a estética.</p>        
+
             </div>
         </div>
     </div>
-    
+</div> 
+
+
+    <div class="base-site-3">
+        <div class="borda-texto">
+            <div class="conteudo-site">
+                <h1 data-aos="fade-up">Emoções das cores</h1>
+                <div class="base-texto">
+                    <img id="cores" data-aos="fade-up" src="../ex007 (1)/Imagens/gráfico sentimentos.jpg" alt="gráfic-sentimentos">
+                    <div id="bg-texto">
+                        <p data-aos="zoom-out">No processo de construção de produtos gráficos, a cor é um dos atributos de maior relevância. Ela é uma qualidade dos objetos, no entanto, para sua compreensão real, deve-se analisar o caminho percorrido pela cor do objeto ao cérebro.</p>
+
+                        <p data-aos="zoom-out">Johann Wolfgang Goethe concluiu com suas pesquisas que a cor vai além de um fenômeno físico, mas é também um fenômeno fisiológico e psíquico.</p>
+                        <img data-aos="zoom-out" id="celebro" src="../ex007 (1)/Imagens/celebro-melhor-removebg-preview.png" alt="celebro-cores">
+                        <p data-aos="zoom-out">Segundo ele as cores amarelo, laranja e vermelho-alaranjado despertam o lado mais ativo do ser humano, pois são cores estimulantes e vivas. Goethe define cor como “uma informação visual, causada por um estímulo físico, percebida pelos olhos e decodificada pelo cérebro”.</p>
+        
+                        <p data-aos="zoom-out">Ao se utilizar determinada cor intencionalmente, está se conferindo a ela a condição de signo. Ela será percebida e decifrada pela visão, interpretada pela cognição e transformada numa informação. A cor tem um aspecto funcional com relação à comunicação visual e à psicologia e, em função disso, o designer deve estudar muito bem o uso das cores em seus projetos.</p>
+                    </div>
+                    <img id="cores-marcas" data-aos="fade-up"
+                    data-aos-duration="2000" src="../ex007 (1)/Imagens/cores-empresas.jpg" alt="cores-empresas">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        AOS.init();
+      </script>
+
 </body>
 </html>
